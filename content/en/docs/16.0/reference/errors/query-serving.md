@@ -27,7 +27,7 @@ These error messages are internal to Vitess. If you are getting other errors fro
 | VT03012 | The syntax is invalid. Please refer to the MySQL documentation for the proper syntax. | invalid syntax: %s | 0 |  |
 | VT03013 | This table or alias name is already use. Please use another one that is unique. | not unique table/alias: '%s' | 1066 | 42000 |
 | VT03014 | The given column is unknown. | unknown column '%d' in '%s' | 1054 | 42S22 |
-| VT03015 | Cannot assign multiple values to a column in an update statement. | column has duplicate set values: '%v' | 0 |  |
+| VT03015 | Cannot assign multiple values to a column in an update statement. | testing an error code change column has duplicate set values: '%v' | 0 |  |
 | VT03016 | The given column is unknown in the vindex table. | unknown vindex column: '%s' | 0 |  |
 | VT03017 | This vstream where clause can only be a greater than filter. | where clause can only be of the type 'pos > <value>' | 1149 | 42000 |
 | VT03018 | You cannot use the NEXT syntax on a table that is not a sequence table. | NEXT used on a non-sequence table | 0 |  |

@@ -1,11 +1,11 @@
 ---
 title: Reshard complete
 series: vtctldclient
-commit: b089f78945653f6acd17c66f896820e36df49437
+commit: 52a0f4b3318122849a5170d5ad52d552e6f8f919
 ---
 ## vtctldclient Reshard complete
 
-Complete a MoveTables VReplication workflow.
+Complete a Reshard VReplication workflow.
 
 ```
 vtctldclient Reshard complete
@@ -14,7 +14,7 @@ vtctldclient Reshard complete
 ### Examples
 
 ```
-vtctldclient --server localhost:15999 movetables --workflow commerce2customer --target-keyspace customer complete
+vtctldclient --server localhost:15999 Reshard --workflow cust2cust --target-keyspace customer complete
 ```
 
 ### Options

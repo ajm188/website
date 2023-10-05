@@ -1,16 +1,11 @@
 ---
 title: VDiff
 series: vtctldclient
-commit: b089f78945653f6acd17c66f896820e36df49437
+commit: 52a0f4b3318122849a5170d5ad52d552e6f8f919
 ---
 ## vtctldclient VDiff
 
 Perform commands related to diffing tables involved in a VReplication workflow between the source and target.
-
-### Synopsis
-
-VDiff commands: create, resume, show, stop, and delete.
-See the --help output for each command for more details.
 
 ### Options
 

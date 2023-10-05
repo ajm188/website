@@ -1,7 +1,7 @@
 ---
 title: vtctldclient
 series: vtctldclient
-commit: b089f78945653f6acd17c66f896820e36df49437
+commit: c98e2cd1fee67d6c6b18b29495774739afbda9ab
 ---
 ## vtctldclient
 
@@ -67,6 +67,7 @@ vtctldclient [flags]
 * [vtctldclient GetVSchema](./vtctldclient_getvschema/)	 - Prints a JSON representation of a keyspace's topo record.
 * [vtctldclient GetWorkflows](./vtctldclient_getworkflows/)	 - Gets all vreplication workflows (Reshard, MoveTables, etc) in the given keyspace.
 * [vtctldclient LegacyVtctlCommand](./vtctldclient_legacyvtctlcommand/)	 - Invoke a legacy vtctlclient command. Flag parsing is best effort.
+* [vtctldclient LookupVindex](./vtctldclient_lookupvindex/)	 - Perform commands related to creating, backfilling, and externalizing Lookup Vindexes using VReplication workflows.
 * [vtctldclient MoveTables](./vtctldclient_movetables/)	 - Perform commands related to moving tables from a source keyspace to a target keyspace.
 * [vtctldclient OnlineDDL](./vtctldclient_onlineddl/)	 - Operates on online DDL (schema migrations).
 * [vtctldclient PingTablet](./vtctldclient_pingtablet/)	 - Checks that the specified tablet is awake and responding to RPCs. This command can be blocked by other in-flight operations.

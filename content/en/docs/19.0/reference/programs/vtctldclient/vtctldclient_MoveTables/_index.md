@@ -1,16 +1,11 @@
 ---
 title: MoveTables
 series: vtctldclient
-commit: b089f78945653f6acd17c66f896820e36df49437
+commit: 52a0f4b3318122849a5170d5ad52d552e6f8f919
 ---
 ## vtctldclient MoveTables
 
 Perform commands related to moving tables from a source keyspace to a target keyspace.
-
-### Synopsis
-
-MoveTables commands: Create, Show, Status, SwitchTraffic, ReverseTraffic, Stop, Start, Cancel, and Delete.
-See the --help output for each command for more details.
 
 ### Options
 

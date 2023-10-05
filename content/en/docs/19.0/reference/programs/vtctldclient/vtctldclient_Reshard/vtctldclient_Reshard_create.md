@@ -1,11 +1,11 @@
 ---
 title: Reshard create
 series: vtctldclient
-commit: b089f78945653f6acd17c66f896820e36df49437
+commit: 52a0f4b3318122849a5170d5ad52d552e6f8f919
 ---
 ## vtctldclient Reshard create
 
-Create and optionally run a reshard VReplication workflow.
+Create and optionally run a Reshard VReplication workflow.
 
 ```
 vtctldclient Reshard create
@@ -14,7 +14,7 @@ vtctldclient Reshard create
 ### Examples
 
 ```
-vtctldclient --server localhost:15999 reshard --workflow customer2customer --target-keyspace customer create --source_shards="0" --target_shards="-80,80-" --cells zone1 --cells zone2 --tablet-types replica
+vtctldclient --server localhost:15999 reshard --workflow customer2customer --target-keyspace customer create --source-shards="0" --target-shards="-80,80-" --cells zone1 --cells zone2 --tablet-types replica
 ```
 
 ### Options

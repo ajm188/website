@@ -1,6 +1,7 @@
 ---
 title: AddCellInfo
 series: vtctldclient
+commit: f002d4b9a6b675a0a0c433270c64436f3abde529
 ---
 ## vtctldclient AddCellInfo
 
@@ -10,6 +11,8 @@ Registers a local topology service in a new cell by creating the CellInfo.
 
 Registers a local topology service in a new cell by creating the CellInfo
 with the provided parameters.
+
+This is a test change for cobradocs preview.
 
 The address will be used to connect to the topology service, and Vitess data will
 be stored starting at the provided root.

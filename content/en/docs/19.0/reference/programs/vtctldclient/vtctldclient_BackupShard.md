@@ -1,6 +1,7 @@
 ---
 title: BackupShard
 series: vtctldclient
+commit: f002d4b9a6b675a0a0c433270c64436f3abde529
 ---
 ## vtctldclient BackupShard
 
@@ -9,6 +10,8 @@ Finds the most up-to-date REPLICA, RDONLY, or SPARE tablet in the given shard an
 ### Synopsis
 
 Finds the most up-to-date REPLICA, RDONLY, or SPARE tablet in the given shard and uses the BackupStorage service on that tablet to create and store a new backup.
+
+This is a different change that should show up in the same website preview PR.
 
 If no replica-type tablet can be found, the backup can be taken on the primary if --allow-primary is specified.
 

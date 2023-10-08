@@ -1,10 +1,11 @@
 ---
 title: RestoreFromBackup
 series: vtctldclient
+commit: f002d4b9a6b675a0a0c433270c64436f3abde529
 ---
 ## vtctldclient RestoreFromBackup
 
-Stops mysqld on the specified tablet and restores the data from either the latest backup or closest before `backup-timestamp`.
+lets test this one too, Stops mysqld on the specified tablet and restores the data from either the latest backup or closest before `backup-timestamp`.
 
 ```
 vtctldclient RestoreFromBackup [--backup-timestamp|-t <YYYY-mm-DD.HHMMSS>] [--restore-to-pos <pos>] [--dry-run] <tablet_alias>

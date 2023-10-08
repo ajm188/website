@@ -1,7 +1,7 @@
 ---
 title: vtctldclient
 series: vtctldclient
-commit: e73ce917ed97a6a8586cd3647cb2f498fe908a0e
+commit: f002d4b9a6b675a0a0c433270c64436f3abde529
 ---
 ## vtctldclient
 
@@ -68,6 +68,8 @@ vtctldclient [flags]
 * [vtctldclient GetWorkflows](./vtctldclient_getworkflows/)	 - Gets all vreplication workflows (Reshard, MoveTables, etc) in the given keyspace.
 * [vtctldclient LegacyVtctlCommand](./vtctldclient_legacyvtctlcommand/)	 - Invoke a legacy vtctlclient command. Flag parsing is best effort.
 * [vtctldclient LookupVindex](./vtctldclient_lookupvindex/)	 - Perform commands related to creating, backfilling, and externalizing Lookup Vindexes using VReplication workflows.
+* [vtctldclient Migrate](./vtctldclient_migrate/)	 - Migrate is used to import data from an external cluster into the current cluster.
+* [vtctldclient Mount](./vtctldclient_mount/)	 - Mount is used to link an external Vitess cluster in order to migrate data from it.
 * [vtctldclient MoveTables](./vtctldclient_movetables/)	 - Perform commands related to moving tables from a source keyspace to a target keyspace.
 * [vtctldclient OnlineDDL](./vtctldclient_onlineddl/)	 - Operates on online DDL (schema migrations).
 * [vtctldclient PingTablet](./vtctldclient_pingtablet/)	 - Checks that the specified tablet is awake and responding to RPCs. This command can be blocked by other in-flight operations.
@@ -79,12 +81,12 @@ vtctldclient [flags]
 * [vtctldclient ReloadSchema](./vtctldclient_reloadschema/)	 - Reloads the schema on a remote tablet.
 * [vtctldclient ReloadSchemaKeyspace](./vtctldclient_reloadschemakeyspace/)	 - Reloads the schema on all tablets in a keyspace. This is done on a best-effort basis.
 * [vtctldclient ReloadSchemaShard](./vtctldclient_reloadschemashard/)	 - Reloads the schema on all tablets in a shard. This is done on a best-effort basis.
-* [vtctldclient RemoveBackup](./vtctldclient_removebackup/)	 - Removes the given backup from the BackupStorage used by vtctld.
+* [vtctldclient RemoveBackup](./vtctldclient_removebackup/)	 - Removes the given backup from the BackupStorage used by vtctld. Plus another test change.
 * [vtctldclient RemoveKeyspaceCell](./vtctldclient_removekeyspacecell/)	 - Removes the specified cell from the Cells list for all shards in the specified keyspace (by calling RemoveShardCell on every shard). It also removes the SrvKeyspace for that keyspace in that cell.
 * [vtctldclient RemoveShardCell](./vtctldclient_removeshardcell/)	 - Remove the specified cell from the specified shard's Cells list.
 * [vtctldclient ReparentTablet](./vtctldclient_reparenttablet/)	 - Reparent a tablet to the current primary in the shard.
 * [vtctldclient Reshard](./vtctldclient_reshard/)	 - Perform commands related to resharding a keyspace.
-* [vtctldclient RestoreFromBackup](./vtctldclient_restorefrombackup/)	 - Stops mysqld on the specified tablet and restores the data from either the latest backup or closest before `backup-timestamp`.
+* [vtctldclient RestoreFromBackup](./vtctldclient_restorefrombackup/)	 - lets test this one too, Stops mysqld on the specified tablet and restores the data from either the latest backup or closest before `backup-timestamp`.
 * [vtctldclient RunHealthCheck](./vtctldclient_runhealthcheck/)	 - Runs a healthcheck on the remote tablet.
 * [vtctldclient SetKeyspaceDurabilityPolicy](./vtctldclient_setkeyspacedurabilitypolicy/)	 - Sets the durability-policy used by the specified keyspace.
 * [vtctldclient SetShardIsPrimaryServing](./vtctldclient_setshardisprimaryserving/)	 - Add or remove a shard from serving. This is meant as an emergency function. It does not rebuild any serving graphs; i.e. it does not run `RebuildKeyspaceGraph`.

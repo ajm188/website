@@ -1,10 +1,11 @@
 ---
 title: RemoveBackup
 series: vtctldclient
+commit: f002d4b9a6b675a0a0c433270c64436f3abde529
 ---
 ## vtctldclient RemoveBackup
 
-Removes the given backup from the BackupStorage used by vtctld.
+Removes the given backup from the BackupStorage used by vtctld. Plus another test change.
 
 ```
 vtctldclient RemoveBackup <keyspace/shard> <backup name>

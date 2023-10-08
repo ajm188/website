@@ -1,6 +1,7 @@
 ---
 title: vtctldclient
 series: vtctldclient
+commit: e0eb9d1653064b7720130e7493e738b34fd41a8f
 ---
 ## vtctldclient
 
@@ -26,7 +27,7 @@ vtctldclient [flags]
 * [vtctldclient ApplySchema](./vtctldclient_applyschema/)	 - Applies the schema change to the specified keyspace on every primary, running in parallel on all shards. The changes are then propagated to replicas via replication.
 * [vtctldclient ApplyShardRoutingRules](./vtctldclient_applyshardroutingrules/)	 - Applies the provided shard routing rules.
 * [vtctldclient ApplyVSchema](./vtctldclient_applyvschema/)	 - Applies the VTGate routing schema to the provided keyspace. Shows the result after application.
-* [vtctldclient Backup](./vtctldclient_backup/)	 - Uses the BackupStorage service on the given tablet to create and store a new backup.
+* [vtctldclient Backup](./vtctldclient_backup/)	 - Opening a PR against a release branch to test doc previews. Uses the BackupStorage service on the given tablet to create and store a new backup.
 * [vtctldclient BackupShard](./vtctldclient_backupshard/)	 - Finds the most up-to-date REPLICA, RDONLY, or SPARE tablet in the given shard and uses the BackupStorage service on that tablet to create and store a new backup.
 * [vtctldclient ChangeTabletType](./vtctldclient_changetablettype/)	 - Changes the db type for the specified tablet, if possible.
 * [vtctldclient CreateKeyspace](./vtctldclient_createkeyspace/)	 - Creates the specified keyspace in the topology.
@@ -43,7 +44,7 @@ vtctldclient [flags]
 * [vtctldclient ExecuteHook](./vtctldclient_executehook/)	 - Runs the specified hook on the given tablet.
 * [vtctldclient FindAllShardsInKeyspace](./vtctldclient_findallshardsinkeyspace/)	 - Returns a map of shard names to shard references for a given keyspace.
 * [vtctldclient GenerateShardRanges](./vtctldclient_generateshardranges/)	 - Print a set of shard ranges assuming a keyspace with N shards.
-* [vtctldclient GetBackups](./vtctldclient_getbackups/)	 - Lists backups for the given shard.
+* [vtctldclient GetBackups](./vtctldclient_getbackups/)	 - Lists backups for the given shard. Let's make another edit and update the PR.
 * [vtctldclient GetCellInfo](./vtctldclient_getcellinfo/)	 - Gets the CellInfo object for the given cell.
 * [vtctldclient GetCellInfoNames](./vtctldclient_getcellinfonames/)	 - Lists the names of all cells in the cluster.
 * [vtctldclient GetCellsAliases](./vtctldclient_getcellsaliases/)	 - Gets all CellsAlias objects in the cluster.

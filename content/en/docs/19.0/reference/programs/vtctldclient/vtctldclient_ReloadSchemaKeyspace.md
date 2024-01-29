@@ -1,7 +1,7 @@
 ---
 title: ReloadSchemaKeyspace
 series: vtctldclient
-commit: 2642bea6b1d3476889564c49ed64829f2a3d0a90
+commit: 6b111ff08ca65bcb59750c8dd3bd40f7e81fb5d2
 ---
 ## vtctldclient ReloadSchemaKeyspace
 
@@ -23,6 +23,7 @@ vtctldclient ReloadSchemaKeyspace [--concurrency=<concurrency>] [--include-prima
 
 ```
       --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
       --compact                              use compact format for otherwise verbose outputs
       --server string                        server to use for the connection (required)
       --topo-global-root string              the path of the global topology data in the global topology server (default "/vitess/global")

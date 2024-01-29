@@ -1,7 +1,7 @@
 ---
 title: Workflow start
 series: vtctldclient
-commit: a85c612dc9a58aa2e4b13010fdba99e246646618
+commit: 6b111ff08ca65bcb59750c8dd3bd40f7e81fb5d2
 ---
 ## vtctldclient Workflow start
 
@@ -21,6 +21,7 @@ vtctldclient --server localhost:15999 workflow --keyspace customer start --workf
 
 ```
   -h, --help              help for start
+      --shards strings    (Optional) Specifies a comma-separated list of shards to operate on.
   -w, --workflow string   The workflow you want to start.
 ```
 
@@ -28,6 +29,7 @@ vtctldclient --server localhost:15999 workflow --keyspace customer start --workf
 
 ```
       --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
       --compact                              use compact format for otherwise verbose outputs
   -k, --keyspace string                      Keyspace context for the workflow.
       --server string                        server to use for the connection (required)

@@ -1,7 +1,7 @@
 ---
 title: LookupVindex cancel
 series: vtctldclient
-commit: 3b906cf6a3cedd9d216eaee4e162025d408beee9
+commit: 6b111ff08ca65bcb59750c8dd3bd40f7e81fb5d2
 ---
 ## vtctldclient LookupVindex cancel
 
@@ -27,6 +27,7 @@ vtctldclient --server localhost:15999 LookupVindex --name corder_lookup_vdx --ta
 
 ```
       --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
       --compact                              use compact format for otherwise verbose outputs
       --name string                          The name of the Lookup Vindex to create. This will also be the name of the VReplication workflow created to backfill the Lookup Vindex.
       --server string                        server to use for the connection (required)

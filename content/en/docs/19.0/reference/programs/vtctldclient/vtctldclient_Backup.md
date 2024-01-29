@@ -1,7 +1,7 @@
 ---
 title: Backup
 series: vtctldclient
-commit: 20b1e461f3710f368a04eb0b563fd3de3df56908
+commit: 6b111ff08ca65bcb59750c8dd3bd40f7e81fb5d2
 ---
 ## vtctldclient Backup
 
@@ -25,6 +25,7 @@ vtctldclient Backup [--concurrency <concurrency>] [--allow-primary] [--increment
 
 ```
       --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
       --compact                              use compact format for otherwise verbose outputs
       --server string                        server to use for the connection (required)
       --topo-global-root string              the path of the global topology data in the global topology server (default "/vitess/global")

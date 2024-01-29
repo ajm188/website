@@ -1,7 +1,7 @@
 ---
 title: OnlineDDL force-cutover
 series: vtctldclient
-commit: 3b58bee089a76fdb1f9d452787e40f10e34f034d
+commit: 6b111ff08ca65bcb59750c8dd3bd40f7e81fb5d2
 ---
 ## vtctldclient OnlineDDL force-cutover
 
@@ -27,6 +27,7 @@ OnlineDDL force-cutover test_keyspace 82fa54ac_e83e_11ea_96b7_f875a4d24e90
 
 ```
       --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
       --compact                              use compact format for otherwise verbose outputs
       --server string                        server to use for the connection (required)
       --topo-global-root string              the path of the global topology data in the global topology server (default "/vitess/global")

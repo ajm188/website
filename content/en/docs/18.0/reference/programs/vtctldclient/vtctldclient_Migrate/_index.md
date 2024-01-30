@@ -1,7 +1,7 @@
 ---
 title: Migrate
 series: vtctldclient
-commit: f4d1487c72392cec566ed9ab39a00c7d027cc8ee
+commit: 5d52c05cb8862dc415c13945502b9f00deb9bb8e
 ---
 ## vtctldclient Migrate
 
@@ -19,9 +19,13 @@ Migrate is used to import data from an external cluster into the current cluster
 ### Options inherited from parent commands
 
 ```
-      --action_timeout duration   timeout to use for the command (default 1h0m0s)
-      --compact                   use compact format for otherwise verbose outputs
-      --server string             server to use for the connection (required)
+      --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
+      --compact                              use compact format for otherwise verbose outputs
+      --server string                        server to use for the connection (required)
+      --topo-global-root string              the path of the global topology data in the global topology server
+      --topo-global-server-address strings   the address of the global topology server(s)
+      --topo-implementation string           the topology implementation to use
 ```
 
 ### SEE ALSO

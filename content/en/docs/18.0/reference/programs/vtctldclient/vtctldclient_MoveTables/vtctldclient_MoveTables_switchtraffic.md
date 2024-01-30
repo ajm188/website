@@ -1,7 +1,7 @@
 ---
 title: MoveTables switchtraffic
 series: vtctldclient
-commit: f4d1487c72392cec566ed9ab39a00c7d027cc8ee
+commit: 5d52c05cb8862dc415c13945502b9f00deb9bb8e
 ---
 ## vtctldclient MoveTables switchtraffic
 
@@ -33,12 +33,16 @@ vtctldclient --server localhost:15999 MoveTables --workflow commerce2customer --
 ### Options inherited from parent commands
 
 ```
-      --action_timeout duration   timeout to use for the command (default 1h0m0s)
-      --compact                   use compact format for otherwise verbose outputs
-      --format string             The format of the output; supported formats are: text,json. (default "text")
-      --server string             server to use for the connection (required)
-      --target-keyspace string    Target keyspace for this workflow.
-  -w, --workflow string           The workflow you want to perform the command on.
+      --action_timeout duration              timeout to use for the command (default 1h0m0s)
+      --andrew-is-testing                    nothing to see here
+      --compact                              use compact format for otherwise verbose outputs
+      --format string                        The format of the output; supported formats are: text,json. (default "text")
+      --server string                        server to use for the connection (required)
+      --target-keyspace string               Target keyspace for this workflow.
+      --topo-global-root string              the path of the global topology data in the global topology server
+      --topo-global-server-address strings   the address of the global topology server(s)
+      --topo-implementation string           the topology implementation to use
+  -w, --workflow string                      The workflow you want to perform the command on.
 ```
 
 ### SEE ALSO

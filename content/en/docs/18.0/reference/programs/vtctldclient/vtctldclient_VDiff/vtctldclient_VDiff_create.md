@@ -1,7 +1,7 @@
 ---
 title: VDiff create
 series: vtctldclient
-commit: d3012c188ea0cfc6837917fc6642ea23be9bb1ff
+commit: f4d1487c72392cec566ed9ab39a00c7d027cc8ee
 ---
 ## vtctldclient VDiff create
 

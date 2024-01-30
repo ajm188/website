@@ -1,7 +1,7 @@
 ---
 title: SetShardIsPrimaryServing
 series: vtctldclient
-commit: 9a6f5262f7707ff80ce85c111d2ff686d85d29cc
+commit: f4d1487c72392cec566ed9ab39a00c7d027cc8ee
 ---
 ## vtctldclient SetShardIsPrimaryServing
 

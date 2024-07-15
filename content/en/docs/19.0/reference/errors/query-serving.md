@@ -13,7 +13,7 @@ These error messages are internal to Vitess. If you are getting other errors fro
 
 | ID | Description | Error | MySQL Error Code | SQL State |
 | --- | --- | --- | --- | --- |
-| VT03001 | This aggregation function only takes a single argument. | aggregate functions take a single argument '%s' | 1149 | 42000 |
+| VT03001 | This aggregation function only takes a single argument. | ANDREW IS TESTING SOMETHING aggregate functions take a single argument '%s' | 1149 | 42000 |
 | VT03002 | This schema change is not allowed. You cannot change the keyspace of a table. | changing schema from '%s' to '%s' is not allowed | 1450 | HY000 |
 | VT03003 | The specified table in this DELETE statement is unknown. | unknown table '%s' in MULTI DELETE | 1109 | 42S02 |
 | VT03004 | You cannot delete something that is not a real MySQL table. | the target table %s of the DELETE is not updatable | 1288 | HY000 |
